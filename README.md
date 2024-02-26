@@ -220,7 +220,7 @@ Next we're going to allow users to be able to log into Client-1. To do what we.
 <h2>Create a bunch of additional users using Powershell</h2>
 
 <p>
-<img width="718" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/1ae0789d-ad23-47c9-8e85-ff727c546566">
+<img width="718" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/4f99da8a-4a5f-4ba2-ada6-8d6ae9157dab">
 
 
 </p>
@@ -232,7 +232,10 @@ Using Powershell, we will create users. To do this we
 - Create a new file and paste the contents of the script
 - Run the script
 
+
 [Code Source](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+
+The accounts that were created in this list will be shown in the _EMPLOYEES OU that we created
 
 </p>
 <br />
