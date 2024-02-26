@@ -177,13 +177,20 @@ After creating the account, log in as jane_admin. We will use this account as th
 
 
 <p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/0f31fc1a-48eb-4213-93ed-b75cb602189c">
+
 
 </p>
 <p>
-Enter your text here!
+To add Client-1 to our domain we must go to:
 
-- Enter your text here!
+1. Setting (About this PC)
+2. Rename this PC (advanced)
+3. Change
+4. Under "Domain" enter in your domain name
+5. Enter in your admin credentials and click OK
+
+If successful you'll get a message saying "Welcome to the mydomain.com domain".
 
 </p>
 <br />
