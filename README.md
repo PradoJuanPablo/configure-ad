@@ -25,6 +25,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Install Active Directory
 - Create an Admin and Normal User Account in AD
 - Join Client-1 to  your Domain
+- Setup Remote Desktop for non-administrative users on Client-1
+- Create a bunch of additional users using Powershell
 
 <h2>Setup Resources in Azure</h2>
 
@@ -195,17 +197,7 @@ If successful you'll get a message saying "Welcome to the mydomain.com domain".
 </p>
 <br />
 
-<p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
-
-</p>
-<p>
-Enter your text here!
-
-- Enter your text here!
-
-</p>
-<br />
+<h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
 
 <p>
 <img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
@@ -230,6 +222,20 @@ Enter your text here!
 
 </p>
 <br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<h2>Create a bunch of additional users using Powershell</h2>
 
 <p>
 <img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
