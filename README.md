@@ -58,44 +58,65 @@ Next, we need to set the DC-1 VMs IP to static. to do that we select.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
 <h2>Ensure Connectivity between the client and Domain Controller</h2>
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/c65cd381-6fa0-4025-8a05-1e20881b0329">
+
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/9f49d367-0cde-4200-9e51-58f36e539b3f">
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Let us now check the connection between the two VMs. Lets ping the DC-1 from Client-1. Notice how at first it says "Request timed out". That's because DC-1's firewall didn't allow for ICMP requests to come in. In order to change that, we logged into DC-1, went to the firewall settings and enabled ICMP traffic to pass through. Once enabled, then we can see ICMP replys from Client-1. Now we know that both VMs can communicate with each other. 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <h2>Install Active Directory</h2>
 
 <p>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/e42c1b88-da43-4bef-b50f-dfef2c198264">
+
+</p>
+<p>
+  
+<h3> 1. To install Active Directory we log into DC-1</h1>
+  
+- Server Manager > "Add Roles and Features" > Check "Active Directory Domain Services"
+</p>
+<br />
+
+<p>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/837c7e10-5a5c-41a4-b2ba-44a88f3f951c">
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/fa1ab3c0-7ca6-4660-a893-509f63e51ebe">
+
+</p>
+<p>
+<h3> 2. Promote to domain controller</h1
+
+- Add a new forest called "mydomain.com" (you can call it whatever you want)                                      
+</p>
+<br 
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -118,6 +139,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
 
 <h2>Create an Admin and Normal User Account in AD</h2>
 
