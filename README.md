@@ -161,16 +161,20 @@ To make the user an actual admin user, we must assign them to the admin group. I
 <br />
 
 <p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/8cc9b376-4ddd-4ca5-8e52-04c7c223d13a">
+
 
 </p>
 <p>
-Enter your text here!
+After creating the account, log in as jane_admin. We will use this account as the admin account
 
-- Enter your text here!
 
 </p>
 <br />
+
+
+<h2>Join Client-1 to  your Domain</h2>
+
 
 <p>
 <img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
