@@ -216,29 +216,6 @@ Next we're going to allow users to be able to log into Client-1. To do what we.
 </p>
 <br />
 
-<p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
-
-</p>
-<p>
-Enter your text here!
-
-- Enter your text here!
-
-</p>
-<br />
-
-<p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
-
-</p>
-<p>
-Enter your text here!
-
-- Enter your text here!
-
-</p>
-<br />
 
 <h2>Create a bunch of additional users using Powershell</h2>
 
