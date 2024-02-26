@@ -127,10 +127,14 @@ Let us now check the connection between the two VMs. Lets ping the DC-1 from Cli
 <h2>Create an Admin and Normal User Account in AD</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="718" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/3d5a577b-b778-4bea-bf66-60f3d47c3ac1">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In DC-1 go to.
+  
+- AD Users and Computers > mydomain.com > New > Organizational Unit > and create two OUs called "_EMPLOYEES" and "_ADMINS"  
+  
 </p>
 <br />
 
