@@ -241,65 +241,14 @@ The accounts that were created in this list will be shown in the _EMPLOYEES OU t
 <br />
 
 <p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+<img width="718" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/4e6d0894-e389-4a16-b8d2-cd6e18a2369a">
 
 </p>
 <p>
-Enter your text here!
-
-- Enter your text here!
+To show that the script worked, log in to the one the accounts onto Client-1 and see if you're able to log in. I signed in as "bon.pafel" with the password "Password1" and had a successful login
 
 </p>
 <br />
-
-<p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
-
-</p>
-<p>
-Enter your text here!
-
-- Enter your text here!
-
-</p>
-<br />
-
-<p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
-
-</p>
-<p>
-Enter your text here!
-
-- Enter your text here!
-
-</p>
-<br />
-
-<p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
-
-</p>
-<p>
-Enter your text here!
-
-- Enter your text here!
-
-</p>
-<br />
-
-<p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
-
-</p>
-<p>
-Enter your text here!
-
-- Enter your text here!
-
-</p>
-<br />
-
 
 
 
