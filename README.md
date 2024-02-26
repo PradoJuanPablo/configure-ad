@@ -200,13 +200,18 @@ If successful you'll get a message saying "Welcome to the mydomain.com domain".
 <h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
 
 <p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+<img width="718" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/f01c02cc-9304-489f-80de-18dcf3b48e35">
+
 
 </p>
 <p>
-Enter your text here!
+Next we're going to allow users to be able to log into Client-1. To do what we.
 
-- Enter your text here!
+1. Setting (About this PC)
+2. Remote Desktop
+3. Select users that can remotely access this PC
+4. Add
+5. Enter in "Domain Users" > Check Names > OK
 
 </p>
 <br />
