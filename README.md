@@ -220,13 +220,19 @@ Next we're going to allow users to be able to log into Client-1. To do what we.
 <h2>Create a bunch of additional users using Powershell</h2>
 
 <p>
-<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+<img width="718" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/1ae0789d-ad23-47c9-8e85-ff727c546566">
+
 
 </p>
 <p>
-Enter your text here!
+Using Powershell, we will create users. To do this we 
 
-- Enter your text here!
+- Login to DC-1 as jane_admin
+- Open PowerShell_ise as an administrator
+- Create a new file and paste the contents of the script
+- Run the script
+
+[Code Source](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 
 </p>
 <br />
