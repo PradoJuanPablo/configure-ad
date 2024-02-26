@@ -24,6 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Ensure Connectivity between the client and Domain Controller
 - Install Active Directory
 - Create an Admin and Normal User Account in AD
+- Join Client-1 to  your Domain
 
 <h2>Setup Resources in Azure</h2>
 
@@ -148,11 +149,149 @@ In the _ADMINS folder, create a new user named "jane doe"
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="719" alt="image" src="https://github.com/PradoJuanPablo/configure-ad/assets/160810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To make the user an actual admin user, we must assign them to the admin group. In order to do that we must:
+
+- Right click user > Properties > Member Of > Enter "Domain Admins" > Check Names > OK
+
 </p>
 <br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+<p>
+<img width="719" your image 60810181/712d885c-1014-44e0-80ce-79afb4c9e33e">
+
+</p>
+<p>
+Enter your text here!
+
+- Enter your text here!
+
+</p>
+<br />
+
+
 
 
